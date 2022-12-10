@@ -316,6 +316,18 @@ a {
   gap: 20px;
 }
 
+@media (max-width: 1200px){
+  .service{
+    width: 330px;
+    height: 215px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px){
+  
+}
+
 @media (max-width: 780px){
 
   #header{
@@ -460,12 +472,6 @@ a {
 }
 
 @media (max-width: 600px){
-  #header{
-    position: sticky;
-    z-index: 1;
-    top: 0;
-  }
-
   .navbtn{
     font-size: 10px;
     border-radius: 4px;
@@ -570,6 +576,154 @@ a {
   .project{
     width: 100px;
     height: 100px;
+    font-size: 8px;
+  }
+
+  .projecttitle{
+    width: 50px;
+    text-align: center;
+  }
+
+  #footer{
+    height: 10px;
+    font-size: 2px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #contato, #developed{
+    font-size: 10px;
+  }
+
+  #contact{
+    gap: 2px;
+  }
+}
+
+@media (max-width: 393px){
+  #header{
+    height: 170px;
+  }
+
+  .navbtn{
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 12px;
+    border-radius: 4px;
+    transition: 0.8s;
+    width: 80px;
+    height: 50px;
+  }
+
+  #aboutMeTop{
+    height: 15em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #aboutMeTop h1{
+    font-size: 30px;
+  }
+
+  #aboutMeTop h2{
+    font-size: 18px;
+  }
+
+  #abtme{
+    width: 280px;
+  }
+
+  #aboutmetitle{
+    margin: 0;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  #aboutMeText{
+    width: 200px;
+    height: 100px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  #aboutMeInfo{
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  #typed{
+    font-size: 18px;
+  }
+
+  #type{
+    height: 10px;
+  }
+  
+  .typed-cursor {
+    font-size: 15px;
+    color: $accent-color;
+  }
+
+  #pic{
+    margin-bottom: 0;
+    width: 150px;
+  }
+
+  #myServices{
+    flex-direction: column;
+    height: 700px;
+  }
+
+  .service{
+    width: 250px;
+    height: 190px;
+    margin: 0;
+  }
+
+  .service h1{
+    font-size: 20px;
+  }
+
+  .service h3{
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .feather{
+    width: 18px;
+  }
+
+  .feather-16{
+    width: 12px;
+  }
+
+  #skills{
+    height: 500px;
+    gap: 2px;
+  }
+
+  #skills h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .imgtech{
+    width: 110px;
+  }
+
+  #projects{
+    height: 300px;
+    justify-content: center;
+  }
+
+  .project{
+    width: 110px;
+    height: 110px;
     font-size: 8px;
   }
 
