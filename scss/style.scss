@@ -747,3 +747,11 @@ a {
     gap: 2px;
   }
 }
+
+@media only screen and (min-width: 394px) and (max-width: 600px){
+  #aboutMeTop{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
