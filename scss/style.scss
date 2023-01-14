@@ -329,6 +329,10 @@ a {
 }
 
 @media (max-width: 780px){
+  body{
+    width: 100%;
+  }
+
 
   #header{
     position: sticky;
@@ -472,6 +476,10 @@ a {
 }
 
 @media (max-width: 600px){
+  body{
+    width: 100%;
+  }
+
   .navbtn{
     font-size: 10px;
     border-radius: 4px;
@@ -601,6 +609,10 @@ a {
 }
 
 @media (max-width: 393px){
+  body{
+    width: 100%;
+  }
+
   #header{
     height: 170px;
   }
@@ -749,6 +761,11 @@ a {
 }
 
 @media only screen and (min-width: 394px) and (max-width: 600px){
+  body{
+    width: 100%;
+  }
+
+
   #aboutMeTop{
     flex-direction: row;
     align-items: center;
