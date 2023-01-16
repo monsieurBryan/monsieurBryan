@@ -20,6 +20,10 @@ body{
   color: black;
 }
 
+a{
+  text-decoration: none;
+}
+
 #goup{
   bottom: 20px;
   right: 30px;
@@ -292,8 +296,8 @@ a {
 }
 
 .project{
-  width: 300px;
-  height: 300px;
+  width: 426px;
+  height: 240px;
   background-color: #dcdcdc;
   display: flex;
   flex-direction: column;
@@ -307,6 +311,27 @@ a {
   0px 2.6px 10px rgba(0, 0, 0, 0.045),
   0px 6.3px 24.1px rgba(0, 0, 0, 0.059),
   0px 21px 80px rgba(0, 0, 0, 0.09);
+}
+
+.projectitle{
+  z-index: 100;
+  position: absolute;
+  align-self: center;
+  color: $primary-color;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.projectitle:hover{
+  transition: 0.5s;
+  font-size: 27px;
+}
+
+.projectImg{
+  width: 426px;
+  height: 245px;
+  border-radius: 15px;
 }
 
 #projs{
